@@ -11,6 +11,10 @@ Perfil para jogar a edição europeia de PC de SEGA Rally (2007), também conhec
 
 O painel do carro permite escolher km/h em **Options → Display**. No ROG Ally, o contador mostrou 60 FPS em nove leituras ao longo de 24 segundos de uma corrida rápida em 1080p.
 
+## Progresso
+
+O jogo grava o perfil automaticamente nos pontos de salvamento e o lê na abertura seguinte. Use o mesmo atalho da Steam. O arquivo principal é `SEGA Rally.dat` em `Saved Games`. A tabela de recordes locais é `SR_RANKTABLES.DAT` em `Shared Data/Rank Table`. Ao sair de uma prova, espere a mensagem de salvamento desaparecer antes de fechar o jogo.
+
 ## Dificuldade dos adversários
 
 Com o jogo fechado, rode `python3 dificuldade.py facil` na pasta da instalação. O ajuste usa o nível mínimo de IA (0) em asfalto e fora dele nas 102 etapas de campeonato e nos três perfis de corrida rápida de cada uma das 24 pistas da tabela. O jogo lê as tabelas ao iniciar. Para recuperar a configuração de fábrica, feche o jogo e rode `python3 dificuldade.py original`. Os originais ficam em `backups/tabelas-originais`.
