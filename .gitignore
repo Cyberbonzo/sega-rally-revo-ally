@@ -1,0 +1,6 @@
+*
+!.gitignore
+!README.md
+!jogar.sh
+!preparar.sh
+!config.ini
