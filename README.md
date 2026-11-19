@@ -11,4 +11,8 @@ Perfil para jogar a edição europeia de PC de SEGA Rally (2007), também conhec
 
 O painel do carro permite escolher km/h em **Options → Display**. No ROG Ally, o contador mostrou 60 FPS em nove leituras ao longo de 24 segundos de uma corrida rápida em 1080p.
 
+## Dificuldade dos adversários
+
+Com o jogo fechado, rode `python3 dificuldade.py facil` na pasta da instalação. O ajuste usa o nível mínimo de IA (0) em asfalto e fora dele nas 102 etapas de campeonato e nos três perfis de corrida rápida de cada uma das 24 pistas da tabela. O jogo lê as tabelas ao iniciar. Para recuperar a configuração de fábrica, feche o jogo e rode `python3 dificuldade.py original`. Os originais ficam em `backups/tabelas-originais`.
+
 Este repositório contém apenas scripts e configuração. Os arquivos do jogo e as artes pertencem aos respectivos titulares.
